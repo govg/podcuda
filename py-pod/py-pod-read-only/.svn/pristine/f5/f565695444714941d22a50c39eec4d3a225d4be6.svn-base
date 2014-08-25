@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Identifier Index</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pod-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Indices&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://code.google.com/p/py-pod/">py-pod</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">&nbsp;</td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="identifier-index.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table border="0" width="100%">
+<tr valign="bottom"><td>
+<h1 class="epydoc">Identifier Index</h1>
+</td><td>
+[
+ <a href="#A">A</a>
+  B
+ <a href="#C">C</a>
+ <a href="#D">D</a>
+ <a href="#E">E</a>
+  F
+ <a href="#G">G</a>
+ <a href="#H">H</a>
+ <a href="#I">I</a>
+  J
+  K
+ <a href="#L">L</a>
+ <a href="#M">M</a>
+ <a href="#N">N</a>
+  O
+ <a href="#P">P</a>
+  Q
+  R
+ <a href="#S">S</a>
+ <a href="#T">T</a>
+ <a href="#U">U</a>
+ <a href="#V">V</a>
+  W
+  X
+  Y
+ <a href="#Z">Z</a>
+ <a href="#_">_</a>
+]
+</td></table>
+<table border="0" width="100%">
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="A">A</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#add">add()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#add">add()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="C">C</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#cofactors">cofactors()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod-module.html#combined_distance">combined_distance()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#copy">copy()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="D">D</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod-module.html#decompose">decompose()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#define_line">define_line()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#define_subspace">define_subspace()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.DecompositionBasic-class.html">DecompositionBasic</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace3D-class.html#define_plane">define_plane()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace3D-class.html">VectorSpace3D</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#determinant">determinant()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#define_hyper_plane">define_hyper_plane()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#define_point">define_point()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="E">E</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.util.NullHandler-class.html#emit">emit()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util.NullHandler-class.html">NullHandler</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="G">G</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.util-module.html#gauss_jordan">gauss_jordan()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#get_dim_row">get_dim_row()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#get_length">get_length()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#get_component">get_component()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#get_dimension">get_dimension()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#get_table">get_table()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#get_data">get_data()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#get_dimension">get_dimension()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#get_value">get_value()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#get_dim_col">get_dim_col()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#get_dimension">get_dimension()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#get_variety_dimension">get_variety_dimension()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="H">H</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.vecspace.HyperPlane-class.html">HyperPlane</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="I">I</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html#identity">identity()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#init_points">init_points()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#inverse">inverse()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="L">L</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html">linalg</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="M">M</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.util-module.html#mat_inverse">mat_inverse()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#minor">minor()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html">Matrix</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#multiply">multiply()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="N">N</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#norm">norm()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util.NullHandler-class.html">NullHandler</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.util-module.html#norm">norm()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#numbering">numbering()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="P">P</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod-module.html">pod</a></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#prod_scalar">prod_scalar()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSubspace-class.html#project">project()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSubspace-class.html">VectorSubspace</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Point-class.html">Point</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#product">product()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.Projection-class.html">Projection</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html#prod_matrix">prod_matrix()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#project">project()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#pseudo_inverse">pseudo_inverse()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="S">S</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#scale">scale()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#set_table">set_table()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#sub">sub()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#scale">scale()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#set_value">set_value()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#sub">sub()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#set_component">set_component()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#set_values">set_values()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#symmetric">symmetric()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#set_data">set_data()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.StraightLine-class.html">StraightLine</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#system_solve">system_solve()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="T">T</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#transpose">transpose()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="U">U</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#units">units()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html">util</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="V">V</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.vecspace-module.html">vecspace</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.VectorMatrix-class.html">VectorMatrix</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace3D-class.html">VectorSpace3D</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html">Vector</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSubspace-class.html">VectorSubspace</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+</tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="Z">Z</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html#zero">zero()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#zeros">zeros()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+<td width="33%" class="link-index">&nbsp;</td>
+</tr>
+<tr><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td><td class="link-index">&nbsp;</td></tr>
+</table>
+</td></tr>
+<tr valign="top"><td valign="top" width="1%"><h2 class="epydoc"><a name="_">_</a></h2></td>
+<td valign="top">
+<table class="link-index" width="100%" border="1">
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#__eq__">__eq__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.Projection-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.Projection-class.html">Projection</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#__repr__">__repr__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#__hash__">__hash__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.StraightLine-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.StraightLine-class.html">StraightLine</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod-module.html#_h">_h</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.DecompositionBasic-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.DecompositionBasic-class.html">DecompositionBasic</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace-class.html">VectorSpace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html#_h">_h</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSpace3D-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSpace3D-class.html">VectorSpace3D</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#_h">_h</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Point-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Point-class.html">Point</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace.VectorSubspace-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.VectorSubspace-class.html">VectorSubspace</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace-module.html#_h">_h</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#__ne__">__ne__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod-module.html#_logger">_logger</a><br />
+<span class="index-where">(in&nbsp;<a href="pod-module.html">pod</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.linalg.VectorMatrix-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.VectorMatrix-class.html">VectorMatrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Matrix-class.html#__repr__">__repr__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Matrix-class.html">Matrix</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg-module.html#_logger">_logger</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg-module.html" onclick="show_private();">pod.linalg</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.vecspace.HyperPlane-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.HyperPlane-class.html">HyperPlane</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Point-class.html#__repr__">__repr__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Point-class.html">Point</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.util-module.html#_logger">_logger</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.util-module.html" onclick="show_private();">pod.util</a>)</span></td>
+</tr>
+<tr>
+<td width="33%" class="link-index"><a href="pod.vecspace.LinearVariety-class.html#__init__">__init__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace.LinearVariety-class.html">LinearVariety</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.linalg.Vector-class.html#__repr__">__repr__()</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.linalg.Vector-class.html">Vector</a>)</span></td>
+<td width="33%" class="link-index"><a href="pod.vecspace-module.html#_logger">_logger</a><br />
+<span class="index-where">(in&nbsp;<a href="pod.vecspace-module.html" onclick="show_private();">pod.vecspace</a>)</span></td>
+</tr>
+</table>
+</td></tr>
+</table>
+<br /><br /><!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pod-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Indices&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://code.google.com/p/py-pod/">py-pod</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Aug 04 16:36:46 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

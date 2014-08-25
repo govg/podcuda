@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pod.util</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pod-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://code.google.com/p/py-pod/">py-pod</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pod-module.html">Package&nbsp;pod</a> ::
+        Module&nbsp;util
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pod.util-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module util</h1><p class="nomargin-top"><span class="codelink"><a href="pod.util-pysrc.html">source&nbsp;code</a></span></p>
+<p>Operations on matrices and various tools.</p>
+
+<hr />
+<div class="fields">      <p><strong>Author:</strong>
+        Christophe Alexandre &lt;ch.alexandre at bluewin dot ch&gt;
+      </p>
+      <p><strong>License:</strong>
+        Copyright(C) 2010 Christophe Alexandre
+        <p>This program is free software: you can redistribute it and/or 
+        modify it under the terms of the GNU Lesser General Public License 
+        as published by the Free Software Foundation, either version 3 of 
+        the License, or (at your option) any later version.</p>
+        <p>This program is distributed in the hope that it will be useful, 
+        but WITHOUT ANY WARRANTY; without even the implied warranty of 
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+        General Public License for more details.</p>
+        <p>You should have received a copy of the GNU Lesser General Public
+        License along with this program.  If not, see 
+        &lt;http://www.gnu.org/licenses/lgpl.txt&gt;.</p>
+      </p>
+</div><!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Classes</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="pod.util.NullHandler-class.html" class="summary-name">NullHandler</a><br />
+      Null logging in order to avoid warning messages in client 
+        applications.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Functions</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="numbering"></a><span class="summary-sig-name">numbering</span>(<span class="summary-sig-arg">v</span>)</span><br />
+      Maps every element of to its position.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#numbering">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="prod_scalar"></a><span class="summary-sig-name">prod_scalar</span>(<span class="summary-sig-arg">v1</span>,
+        <span class="summary-sig-arg">v2</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#prod_scalar">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="norm"></a><span class="summary-sig-name">norm</span>(<span class="summary-sig-arg">v</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#norm">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pod.util-module.html#gauss_jordan" class="summary-sig-name">gauss_jordan</a>(<span class="summary-sig-arg">m</span>,
+        <span class="summary-sig-arg">eps</span>=<span class="summary-sig-default">1e-010</span>)</span><br />
+      Puts given matrix (2D array) into the Reduced Row Echelon Form.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#gauss_jordan">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pod.util-module.html#system_solve" class="summary-sig-name">system_solve</a>(<span class="summary-sig-arg">M</span>,
+        <span class="summary-sig-arg">b</span>)</span><br />
+      solves M*x = b</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#system_solve">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pod.util-module.html#mat_inverse" class="summary-sig-name">mat_inverse</a>(<span class="summary-sig-arg">M</span>)</span><br />
+      Returns:
+      the inverse of the matrix M</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#mat_inverse">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pod.util-module.html#zeros" class="summary-sig-name">zeros</a>(<span class="summary-sig-arg">size</span>,
+        <span class="summary-sig-arg">zero</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Returns:
+      matrix of dimension size</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pod.util-pysrc.html#zeros">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Function Details</span></td>
+</tr>
+</table>
+<a name="gauss_jordan"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">gauss_jordan</span>(<span class="sig-arg">m</span>,
+        <span class="sig-arg">eps</span>=<span class="sig-default">1e-010</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pod.util-pysrc.html#gauss_jordan">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Puts given matrix (2D array) into the Reduced Row Echelon Form.</p>
+  <p>NOTE: make sure all the matrix items support fractions! Int matrix 
+  will NOT work! Written by Jarno Elonen in April 2005, released into 
+  Public Domain</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>True if successful, False if 'm' is singular.</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="system_solve"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">system_solve</span>(<span class="sig-arg">M</span>,
+        <span class="sig-arg">b</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pod.util-pysrc.html#system_solve">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>solves M*x = b</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>M</code></strong> - a matrix in the form of a list of list</li>
+        <li><strong class="pname"><code>b</code></strong> - a vector in the form of a simple list of scalars</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>vector x so that M*x = b</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="mat_inverse"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">mat_inverse</span>(<span class="sig-arg">M</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pod.util-pysrc.html#mat_inverse">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>the inverse of the matrix M</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="zeros"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">zeros</span>(<span class="sig-arg">size</span>,
+        <span class="sig-arg">zero</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pod.util-pysrc.html#zeros">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>size</code></strong> - a tuple containing dimensions of the matrix</li>
+        <li><strong class="pname"><code>zero</code></strong> - the value to use to fill the matrix (zero by default)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>matrix of dimension size</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pod-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://code.google.com/p/py-pod/">py-pod</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Aug 04 16:36:46 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

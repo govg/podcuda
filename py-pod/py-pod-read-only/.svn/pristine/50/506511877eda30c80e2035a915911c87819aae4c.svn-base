@@ -1,0 +1,25 @@
+[epydoc]
+
+# Information about the project.
+name: py-pod
+url: https://code.google.com/p/py-pod/
+
+# The list of modules to document.  Modules can be named using
+# dotted names, module filenames, or package directory names.
+# This option may be repeated.
+modules: pod
+
+# Write html output to the directory "apidocs"
+output: html
+target: doc/
+
+# The default markup language for docstrings, for modules that do
+# not define __docformat__.
+docformat: epytext
+
+# Whether or not to inclue private variables.  (Even if included,
+# private variables will be hidden by default.)
+private: no
+
+verbosity: 1
+
