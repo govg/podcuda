@@ -31,13 +31,14 @@ The target is to be finished with single precision computation in the coming
 month, so that work on double precision versions can be started by the start
 of October.
 
+<hr>
 
-Related work and references : 
+###Related work and references : 
 
 Related decompositions : 
 
-* http://en.wikipedia.org/wiki/Matrix_decomposition#Eigendecomposition
-* http://en.wikipedia.org/wiki/Karhunen%E2%80%93Lo%C3%A8ve_theorem
+* [Eigen Decomposition](http://en.wikipedia.org/wiki/Matrix_decomposition#Eigendecomposition)
+* [K-L Theorem](http://en.wikipedia.org/wiki/Karhunen%E2%80%93Lo%C3%A8ve_theorem)
 
 Helpful tutorials and introductions : 
 
