@@ -1,6 +1,5 @@
 #CUDA Related papers
 
-<hr>
 
 ####SVD GPU
 
