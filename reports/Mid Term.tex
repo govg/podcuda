@@ -1,49 +1,3 @@
-% `template.tex', a bare-bones example employing the AIAA class.
-%
-% For a more advanced example that makes use of several third-party
-% LaTeX packages, see `advanced_example.tex', but please read the
-% Known Problems section of the users manual first.
-%
-% Typical processing for PostScript (PS) output:
-%
-%  latex template
-%  latex template   (repeat as needed to resolve references)
-%
-%  xdvi template    (onscreen draft display)
-%  dvips template   (postscript)
-%  gv template.ps   (onscreen display)
-%  lpr template.ps  (hardcopy)
-%
-% With the above, only Encapsulated PostScript (EPS) images can be used.
-%
-% Typical processing for Portable Document Format (PDF) output:
-%
-%  pdflatex template
-%  pdflatex template      (repeat as needed to resolve references)
-%
-%  acroread template.pdf  (onscreen display)
-%
-% If you have EPS figures, you will need to use the epstopdf script
-% to convert them to PDF because PDF is a limmited subset of EPS.
-% pdflatex accepts a variety of other image formats such as JPG, TIF,
-% PNG, and so forth -- check the documentation for your version.
-%
-% If you do *not* specify suffixes when using the graphicx package's
-% \includegraphics command, latex and pdflatex will automatically select
-% the appropriate figure format from those available.  This allows you
-% to produce PS and PDF output from the same LaTeX source file.
-%
-% To generate a large format (e.g., 11"x17") PostScript copy for editing
-% purposes, use
-%
-%  dvips -x 1467 -O -0.65in,0.85in -t tabloid template
-%
-% For further details and support, read the Users Manual, aiaa.pdf.
-
-
-% Try to reduce the number of latex support calls from people who
-% don't read the included documentation.
-%
 \typeout{}\typeout{If latex fails to find aiaa-tc, read the README file!}
 %
 
@@ -80,6 +34,19 @@ the project, submitted in partial fulfillment of the requirements of the B Tech 
 Department of Aerospace Engineering, IIT Kanpur.
 \end{abstract}
 
+\section{Introduction}
+
+\section{Background}
+
+\section{Motivation}
+
+\section{Literature review}
+
+\section{Theoretical overview}
+\subsection{CUDA}
+\subsection{POD}
+
+\section{Work outline}
 
 
 \begin{thebibliography}{9}% maximum number of references (for label width)
