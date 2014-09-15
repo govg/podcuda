@@ -1,0 +1,28 @@
+Structure of midterm report : 
+
+
+Introduction	: 
+
+
+Background 	:
+
+
+Motivation	:
+
+
+Literature 	:	
+		7 x papers in Aerospace
+		13 x POD/PCA
+
+Theory		:
+	CUDA	:
+
+		Mention potential speedup.
+		Benchmarking for matrix operatiosn
+
+	POD	:
+		Application to flows.
+		General applicability in reduced order modelling.
+
+Work outline	:
+
