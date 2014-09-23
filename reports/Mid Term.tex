@@ -35,7 +35,15 @@ Department of Aerospace Engineering, IIT Kanpur.
 \end{abstract}
 
 \section{Introduction}
-As part of the requirements of the course AE471A, this project is being undertaken in two parts. Part A consists of the study of the technique known as the Proper Orthogonal Decomposition, and the benefits and pitfalls associated with implementing it on a parallel architecture. Concurrently, we develop a library that aims to implement the Proper Orthogonal Decomposition in parallel, using the CUDA environent provided by Nvidia. In this mid term report, we outline the work that has been carried out so far, and the proposed plan for the project execution.
+As part of the requirements of the course AE471A, this project is being 
+undertaken in two parts. Part A consists of the study of the technique known 
+as the Proper Orthogonal Decomposition, and the benefits and pitfalls associated 
+with implementing it on a parallel architecture. Concurrently, we develop a 
+library that aims to implement the Proper Orthogonal Decomposition in parallel, 
+using the CUDA environent provided by Nvidia. In this mid term report, we outline
+the work that has been carried out so far, and the proposed plan for the project 
+execution.
+
 
 \section{Background}
 The Proper Orthogonal Decomposition is used widely in different fields, for reducing the dimensionality of the data being handled. 
@@ -61,10 +69,16 @@ possible extension into newer languages like Python. This would ensure that
 newcomers to the field can quickly utilise this library off the shelf, instead of
 using Fortran code which is compartively tough to understand. 
 
+One of the main objectives of this project is to check for possible speedups
+over the existing library. Initial studies show that trivial matrix based
+calculations can be optimized to provide up to a 20x speedup over traditional 
+CPU based computation, and it would be one of the aims of this project to try
+and obtain such massive improvements in the existing framework. 
 \section{Literature review}
 We give a brief overview of the current work in this field, as well as the 
 relevant work which has been used to aid this project. A comprehensive overview 
 shall be present in the final report.
+
 \subsection{POD}
 \subsection{POD in Aerospace Engineering}
 \subsection{Parallelization and CUDA}
@@ -91,10 +105,31 @@ CUDA has come to prominence of late because of the support Nvidia has released,
 of developing general computing applications on their hardware. Usage of CUDA for 
 scientific computing is slowly gaining favour with researchers, as it provides a 
 cheaper and faster alternative to bigger larger CPU based systems.
-		\subsection{POD}
+
+\subsection{POD}
 
 \section{Work outline}
-
+We plan to carry out the project in three phases:
+\begin{description}
+\item[Initialization: ] This would involve a time period up to the mid semester 
+	examination. The work carried out in this period would be primarily the
+	initial configurations, and theoretical study. An initial literature 
+	review would be carried out, to identify the relevant work, as well as 
+	the state of the art. Also, the main computing system would be set up
+	for development of the library. Existing code would be tracked and 
+	stored for further studies.
+\item[Internalization: ] This would be involve the time period from the mid 
+	semester examination till October end, roughly a period of 5 weeks. 
+	A concrete study of the theory would be finished by this time, and
+	the program layout finalized. The most appropriate relevant research
+	work would be identified as the basis for the project, and existing
+	code would be analyzed thourougly, for improvements and application
+	specific optimization.
+\item[Realization: ] This would be carried out in the month of November, 
+	culminating in the final project report, as well as release of 
+	relevant code. The report would carry an overview of the results 
+	obtained, the relevance of the results, all code that was developed, 
+	as well as relevant documentation for the code. 
 
 \begin{thebibliography}{9}% maximum number of references (for label width)
 \end{thebibliography}
