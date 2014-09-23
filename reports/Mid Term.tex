@@ -35,16 +35,63 @@ Department of Aerospace Engineering, IIT Kanpur.
 \end{abstract}
 
 \section{Introduction}
+As part of the requirements of the course AE471A, this project is being undertaken in two parts. Part A consists of the study of the technique known as the Proper Orthogonal Decomposition, and the benefits and pitfalls associated with implementing it on a parallel architecture. Concurrently, we develop a library that aims to implement the Proper Orthogonal Decomposition in parallel, using the CUDA environent provided by Nvidia. In this mid term report, we outline the work that has been carried out so far, and the proposed plan for the project execution.
 
 \section{Background}
+The Proper Orthogonal Decomposition is used widely in different fields, for reducing the dimensionality of the data being handled. 
 
 \section{Motivation}
+There is a vast range of application for the technique known as POD. In Signal 
+Processing, Data Mining, Statistical Learning, it forms a core of a set of methods
+that help in dealing with large amounts of data. Specifically in computational 
+fluid dynamics, we can deal with large scale descriptions of flow by proper 
+decompositional modes, which significantly reduce our computational effort, while
+providing us a nearly accurate solution. If there exists avenues to speed up 
+the calculation of the POD, it would help boost the speed of current techniques
+and help in larger adoption of this technique.
+
+
+Computing the POD of a dataset is relatively fast when we use low level languages
+like Fortran, and with usage of systems like MPI, we can effectively compute the
+POD for large datasets in a trivial amount of time. This is possible largely due
+to the presence of high performance multicore computers, which the majority of 
+students do not have access to. The aim of the library developed as part of this
+project is to create an easy to use and fast library for general usage, with 
+possible extension into newer languages like Python. This would ensure that 
+newcomers to the field can quickly utilise this library off the shelf, instead of
+using Fortran code which is compartively tough to understand. 
 
 \section{Literature review}
+We give a brief overview of the current work in this field, as well as the 
+relevant work which has been used to aid this project. A comprehensive overview 
+shall be present in the final report.
+\subsection{POD}
+\subsection{POD in Aerospace Engineering}
+\subsection{Parallelization and CUDA}
 
 \section{Theoretical overview}
 \subsection{CUDA}
-\subsection{POD}
+CUDA, or Compute Unified Device Architecture is a parallel computing platform 
+created by NVIDIA corp. It allows using general GPUs present in mid-high end 
+computers for computaion. The advantage of using this over traditional CPU based
+computation is two fold:
+
+\begin{itemize}
+\item 
+	There are a large number of compute cores in a typical GPU as compared to 
+	a typical CPU. A low end GPU contains upwards of few hundred cores, as 
+	compared to a high end CPU which may contain less than 20 cores.
+\item
+	These compute cores are highly interlinked and optimized for parallel 
+	execution. They are most effective when used for trivial computation 
+	that can be massively parallelized.
+\end{itemize}
+
+CUDA has come to prominence of late because of the support Nvidia has released,
+of developing general computing applications on their hardware. Usage of CUDA for 
+scientific computing is slowly gaining favour with researchers, as it provides a 
+cheaper and faster alternative to bigger larger CPU based systems.
+		\subsection{POD}
 
 \section{Work outline}
 
