@@ -1,0 +1,17 @@
+CHDR = \
+
+
+DHDR = \
+
+
+SHDR = \
+
+
+CSRC = \
+magma_cnan_inf.cpp cpanel_to_q.cpp cprint.cpp
+
+DSRC = \
+magma_dnan_inf.cpp dpanel_to_q.cpp dprint.cpp
+
+SSRC = \
+magma_snan_inf.cpp spanel_to_q.cpp sprint.cpp

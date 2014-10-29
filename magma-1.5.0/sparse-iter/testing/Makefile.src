@@ -1,0 +1,17 @@
+CHDR = \
+
+
+DHDR = \
+
+
+SHDR = \
+
+
+CSRC = \
+testing_cmatrix.cpp testing_cdot.cpp testing_cspmv.cpp testing_csolver.cpp
+
+DSRC = \
+testing_dmatrix.cpp testing_ddot.cpp testing_dspmv.cpp testing_dsolver.cpp
+
+SSRC = \
+testing_smatrix.cpp testing_sdot.cpp testing_sspmv.cpp testing_ssolver.cpp

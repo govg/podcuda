@@ -1,0 +1,167 @@
+#//////////////////////////////////////////////////////////////////////////////
+#   -- MAGMA (version 1.5.0) --
+#      Univ. of Tennessee, Knoxville
+#      Univ. of California, Berkeley
+#      Univ. of Colorado, Denver
+#      @date September 2014
+#//////////////////////////////////////////////////////////////////////////////
+
+include $(MAGMA_DIR)/make.inc
+-include $(MAGMA_DIR)/make.icl
+
+#
+# If not set, use deprecated OPTS variable names
+#
+CXX             ?= $(CC)
+CFLAGS          ?= $(OPTS)
+CXXFLAGS        ?= $(CFLAGS)
+FFLAGS          ?= $(F77OPTS)
+F90FLAGS        ?= $(FOPTS)
+NVCCFLAGS       ?= $(NVOPTS)
+LDFLAGS         ?= $(LDOPTS)
+
+#
+# Set default values if they are not set in make.inc
+#
+PGIFORTRAN      ?= 0
+GPU_TARGET      ?= Tesla Fermi Kepler
+LIBMAGMA        ?= $(MAGMA_DIR)/lib/libmagma.a
+LIBMAGMA_SPARSE ?= $(MAGMA_DIR)/lib/libmagma_sparse.a
+FORT            ?= no_fortran
+
+prefix ?= /usr/local/magma
+
+#
+# Quark
+#
+#QUARKDIR ?= $(MAGMA_DIR)/quark
+#INC += -I$(QUARKDIR)/include
+#LIB += -L$(QUARKDIR)/lib -lquark
+
+#
+# NVCC options for the different cards
+# First, add smXX for architecture names
+#
+ifneq ($(findstring Tesla, $(GPU_TARGET)),)
+    GPU_TARGET += sm10 sm13
+endif
+ifneq ($(findstring Fermi, $(GPU_TARGET)),)
+    GPU_TARGET += sm20
+endif
+ifneq ($(findstring Kepler, $(GPU_TARGET)),)
+    GPU_TARGET += sm30 sm35
+endif
+
+#
+# Next, add compile options for specific smXX
+# sm_xx is binary, compute_xx is PTX for forward compatability
+# MIN_ARCH is lowest requested version 
+# NV_SM    accumulates sm_xx for all requested versions
+# NV_COMP  is compute_xx for highest requested version
+#
+# See also $(info compile for ...) in Makefile
+#
+NV_SM    :=
+NV_COMP  :=
+
+ifneq ($(findstring sm10, $(GPU_TARGET)),)
+    MIN_ARCH ?= 100
+    NV_SM    += -gencode arch=compute_10,code=sm_10
+    NV_COMP  := -gencode arch=compute_10,code=compute_10
+endif
+ifneq ($(findstring sm13, $(GPU_TARGET)),)
+    MIN_ARCH ?= 130
+    NV_SM    += -gencode arch=compute_13,code=sm_13
+    NV_COMP  := -gencode arch=compute_13,code=compute_13
+endif
+ifneq ($(findstring sm20, $(GPU_TARGET)),)
+    MIN_ARCH ?= 200
+    NV_SM    += -gencode arch=compute_20,code=sm_20
+    NV_COMP  := -gencode arch=compute_20,code=compute_20
+endif
+ifneq ($(findstring sm30, $(GPU_TARGET)),)
+    MIN_ARCH ?= 300
+    NV_SM    += -gencode arch=compute_30,code=sm_30
+    NV_COMP  := -gencode arch=compute_30,code=compute_30
+endif
+ifneq ($(findstring sm35, $(GPU_TARGET)),)
+    MIN_ARCH ?= 350
+    NV_SM    += -gencode arch=compute_35,code=sm_35
+    NV_COMP  := -gencode arch=compute_35,code=compute_35
+endif
+ifeq ($(NV_COMP),)
+    $(error GPU_TARGET, currently $(GPU_TARGET), must contain one or more of Tesla, Fermi, Kepler, or sm{10,13,20,30,35}. Please edit your make.inc file)
+endif
+NVCCFLAGS += $(NV_SM) $(NV_COMP)
+CFLAGS    += -DMIN_CUDA_ARCH=$(MIN_ARCH)
+CXXFLAGS  += -DMIN_CUDA_ARCH=$(MIN_ARCH)
+
+LIBEXT = $(LIBDIR) $(LIB)
+
+# Use Plasma to compile zgetfl and ztstrf
+PLASMA = $(shell pkg-config --libs coreblas 2> /dev/null )
+ifeq (1, $(words $(findstring coreblas, $(PLASMA))))
+    CFLAGS   += -DMAGMA_WITH_PLASMA
+    CXXFLAGS += -DMAGMA_WITH_PLASMA
+    INC      := $(INC) $(shell pkg-config --cflags-only-I coreblas)
+    LIBEXT   := $(LIBEXT) $(shell pkg-config --libs coreblas)
+    require  := plasma
+endif
+
+# INC is all external include directories (CUDA, MKL, etc.).
+# It is used for external programs that link with MAGMA, e.g., via pkgconfig.
+# CPPFLAGS adds internal MAGMA directories needed to compile MAGMA itself.
+CPPFLAGS = $(INC) -I$(MAGMA_DIR)/include -I$(MAGMA_DIR)/control -I$(MAGMA_DIR)/sparse-iter/include
+
+# Define the pointer size for fortran compilation
+PTRFILE = $(MAGMA_DIR)/control/sizeptr.c
+PTROBJ  = $(MAGMA_DIR)/control/sizeptr.o
+PTREXEC = $(MAGMA_DIR)/control/sizeptr
+PTRSIZE = $(shell $(PTREXEC))
+PTROPT  = -Dmagma_devptr_t="integer(kind=$(PTRSIZE))"
+
+$(PTREXEC): $(PTROBJ)
+	$(CC) $(LDFLAGS) -o $@ $<
+
+# Add to F90 (F90FLAGS), not needed in F77 FFLAGS
+F90FLAGS += $(PTROPT)
+
+#
+# Rules to compile object files
+#
+.SUFFIXES:
+
+%.i: %.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -E $< -o $@
+
+%.i: %.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) -E $< -o $@
+
+%.i: %.cu
+	$(NVCC) $(NVCCFLAGS) $(CPPFLAGS) -E $< -o $@
+
+%.i: %.h
+	$(CC) $(CFLAGS) $(CPPFLAGS) -E $< -o $@
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $< -o $@
+
+%.o: %.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
+
+%.o: %.cu
+	$(NVCC) $(NVCCFLAGS) $(CPPFLAGS) -c $< -o $@
+
+%.o: %.f90  $(PTREXEC)
+	$(FORT) $(F90FLAGS) $(CPPFLAGS) -c $< -o $@
+
+%.o: %.F90  $(PTREXEC)
+	$(FORT) $(F90FLAGS) $(CPPFLAGS) -c $< -o $@
+
+%.o: %.f
+	$(FORT) $(FFLAGS) $(CPPFLAGS) -c $< -o $@
+
+-include $(MAGMA_DIR)/Makefile.gen
+
+# reset default goal
+.DEFAULT_GOAL :=
