@@ -31,16 +31,12 @@ F90FLAGS  = -O3 -DADD_ -Wall -x f95-cpp-input
 NVCCFLAGS = -O3 -DADD_ -Xcompiler -fno-strict-aliasing
 LDFLAGS   = -fopenmp
 
-# gcc with OpenBLAS (includes LAPACK)
-LIB       = -lopenblas -lcublas -lcudart
 
 # define library directories preferably in your environment, or here.
 #OPENBLASDIR ?= /usr/local/openblas
 #CUDADIR ?= /usr/local/cuda
--include make.check-openblas
 -include make.check-cuda
 
-LIBDIR    = -L$(OPENBLASDIR)/lib \
-            -L$(CUDADIR)/lib64
+LIBDIR    = -L/usr/local/cuda-6.5/lib64
 
 INC       = -I$(CUDADIR)/include
